@@ -1,7 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim');
+
+
+* {
+    background-color: purple;
+}
+
+.App {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Header {
+    font-family: Akronim;
+    font-size: 50px;
+
+}
+
 .task {
     cursor: pointer;
+    font-family: Akronim;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .task.completed {
     text-decoration: line-through;
+}
+
+.clr-btn {
+    border-radius: 20px;
+    background-color: gold;
+    height: 30px;
+    font-weight: bold;
+}
+
+.add-btn {
+    margin-left: 20px;
+    background-color: gold;
 }

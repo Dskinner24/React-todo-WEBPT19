@@ -7,22 +7,22 @@ import "./components/Styles.css";
 const tasks = [
   {
     task: '2 hours of independent learning',
-    id: Date.now(),
+    id: 0,
     completed: false
   },
   {
     task: '2 hours of working out',
-    id: Date.now(),
+    id: 1,
     completed: false
   },
   {
     task: '2 hours meal prep',
-    id: Date.now(),
+    id: 2,
     completed: false
   },
   {
     task: '3 hours of completing school assignments',
-    id: Date.now(),
+    id: 3,
     completed: false
   } 
 ];
